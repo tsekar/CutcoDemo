@@ -1,4 +1,4 @@
-# Cutco Automation Framework
+# Protractor Framework
     A custom automation framework to support an ionic app and desktop version of site
 
 ## Getting Started
