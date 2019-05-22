@@ -1,0 +1,40 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "cutco demo",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^11.13.6",
+    "@types/underscore": "^1.8.14",
+    "jasmine": "^3.4.0",
+    "jasmine-allure-reporter": "^0.2.3",
+    "maven": "^4.4.1",
+    "protractor-html-reporter-2": "^1.0.4",
+    "protractor-jasmine2-parallel-html-reporter": "^1.0.0",
+    "typescript": "^3.4.3",
+    "wd": "^1.11.2",
+    "wd-bridge": "0.0.2",
+    "websocket": "^1.0.28"
+  },
+  "scripts": {
+    "test": "protractor configPOM.js"
+  },
+  "script": {
+    "test": "protractor config.js"
+  },
+  "author": "Tamilarasan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "allure-commandline": "^2.9.0",
+    "jasmine": "^3.2.0",
+    "jasmine-reporters": "^1.0.2",
+    "protractor": "^6.0.0",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "protractor-html-screenshot-reporter": "0.0.21",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+    "protractor-pretty-html-reporter": "0.0.16",
+    "typescript": "^3.0.3"
+  }
+}

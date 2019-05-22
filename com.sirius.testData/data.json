@@ -1,0 +1,20 @@
+{
+    "baseUrl" : "http://172.19.16.101:8100/login",
+    "chrome": {
+        "username": "chromeUser",
+        "password": "chromePass"
+    },
+    "iphone": {
+        "username": "iOSUser",
+        "password": "iOS"
+    },
+    "android" : {
+        "username": "AndroidUser",
+        "password": "Android"
+    },
+    "ipad" : {
+        "username": "iPad",
+        "password": "ipadpass"
+    }
+
+}
