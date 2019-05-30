@@ -5,7 +5,7 @@ module.exports.geturl = function () {
             switch (exportBrowserName) {
                 case 'chrome':
                     browser.driver.manage().deleteAllCookies();
-                    browser.get('https://master.d2zq57njpkxtrr.amplifyapp.com/login');
+                    browser.get(''); //link 
                     break;
                 default:
                     browser.driver.manage().deleteAllCookies();
