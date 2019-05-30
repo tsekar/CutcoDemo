@@ -12,9 +12,9 @@ exports.config = {
         platformName: 'Android',
         platformVersion: '6.0.1',
         deviceName: 'Samsung_Galaxy_S7',
-        udid: 'ce10160a9195a30c01',
-        app: '../com.sirius.library/Apps/app-debug.apk',
-        bundleId: 'com.sirius.cutcorepapp',
+        udid: '', //device-udid
+        app: '', //appname
+        bundleId: '', //buildname
         autoWebviewTimeout: 20000,
         autoWebview: true,
         name: 'android',
@@ -34,9 +34,9 @@ exports.config = {
         platformName: "iOS",
         platformVersion: "11.1.2",
         deviceName: "Sirius X",
-        udid: "6e9a44f84b7f17c4606cd948036e92de4a636b35",
-        app: "../com.sirius.library/Apps/MyApp.ipa",
-        bundleId: "com.sirius.myapp",
+        udid: "", //device udid
+        app: "", //app path
+        bundleId: "", //build name
         autoWebviewTimeout: 40000,
         autoWebview: true,
         automationName: "XCUITest",
