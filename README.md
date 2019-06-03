@@ -9,12 +9,12 @@
     1. Install Xcode 
     2. Install Android SDK and Set android home
         https://stackoverflow.com/questions/27449206/what-is-the-final-version-of-the-adt-bundle [Direct file, download and keep it in any folder]
+        
         export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home //JDK file path
-
-        #export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_131`
+        export JAVA_HOME=`/usr/libexec/java_home -v 1.8.0_131`
         export ANDROID_HOME=/Project/adt-bundle-mac-x86_64-20140702/sdk/
         export PATH=$PATH:/usr/local/bin:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-        export ANDROID_PROFILE=/OneSource/adt-bundle-mac-x86_64-20140702/sdk/
+        export ANDROID_PROFILE=/Project/adt-bundle-mac-x86_64-20140702/sdk/
 
 ### Installing
     Installations on require package to run the basic protractor test,
