@@ -47,7 +47,8 @@
 
 
 ## Author
-    Tamilarasan Sekar <Tamilarasan.Sekar@siriuscom.com>
+    Tamilarasan Sekar <Tamilarasan.Sekar@siriuscom.com or tamilarasan5033@gmail.com>
+
 
 
 
