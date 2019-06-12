@@ -29,7 +29,7 @@
 
             Now start up a server with:
 
-                command: webdriver-manager start
+                command: **webdriver-manager start**
 
     3. The protractor-beautiful-reporter module is available via npm:
             command: npm install protractor-beautiful-reporter --save-dev
