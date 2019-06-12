@@ -37,7 +37,7 @@
 
 ## Running the tests
     You can start run your test after configuring it in configuration.js. Basically script runner file would be configuration.js and triggering with all the necessary details.
-        command: `protractor configuration.js`
+        command: protractor configuration.js
 
         Note: Before that you need to start the respective servers (selenium standalone server is must and followed by appium commands if you want to run in devices)
 
