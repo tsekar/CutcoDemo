@@ -20,7 +20,7 @@
     Installations on require package to run the basic protractor test,
     1. Download and Install Code IDE (https://code.visualstudio.com/)
     2. Install the protractor via npm
-        command: ```npm install -g protractor```
+        command: npm install -g protractor
             This will install two command line tools, protractor and webdriver-manager. Try running protractor --version to make sure it's working.
 
             The webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. Use it to download the necessary binaries with:
@@ -29,7 +29,7 @@
 
             Now start up a server with:
 
-                command: ```webdriver-manager start```
+                command: webdriver-manager start
 
     3. The protractor-beautiful-reporter module is available via npm:
             command: npm install protractor-beautiful-reporter --save-dev
@@ -37,7 +37,7 @@
 
 ## Running the tests
     You can start run your test after configuring it in configuration.js. Basically script runner file would be configuration.js and triggering with all the necessary details.
-        command: ```protractor configuration.js```
+        command: `protractor configuration.js`
 
         Note: Before that you need to start the respective servers (selenium standalone server is must and followed by appium commands if you want to run in devices)
 
